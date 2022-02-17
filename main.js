@@ -29,4 +29,5 @@ const htmlString = (obj) => {
             </section>`
 }
 
-console.log(htmlString(computer))
+
+document.getElementById("script").innerHTML = htmlString(computer)
